@@ -2,7 +2,7 @@ module.exports = function toReadable (number) {
   var number;
 const unit = {
     0: "zero",
-    1: "one", 
+    1: "one",
     2: "two",
     3: "three",
     4: "four",
@@ -33,7 +33,7 @@ const unit = {
     5: "fifty",
     6: "sixty",
     7: "seventy",
-    8: "eighty", 
+    8: "eighty",
     9: "ninety",
   };
 
@@ -86,7 +86,7 @@ alert ("The number should be under 1000.");
     } else
     { let result = hundred[firstNum] + ' hundred ' + ten[secondNum] + ' ' + unit[thirdNum];
     return (result.trim());
-    }     
-    
+    }
+
 }}
 }
